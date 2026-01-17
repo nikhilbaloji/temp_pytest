@@ -1,3 +1,5 @@
+import sys
+
 def temperature(temp):
     if temp < 20:
         return "cold"
@@ -8,5 +10,5 @@ def temperature(temp):
 
 
 if __name__ == "__main__":
-    temp = float(input())
+    temp = float(sys.argv[1])
     print(temperature(temp))
