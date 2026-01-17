@@ -1,2 +1,4 @@
 from test_temp import temperature
-def test_cold(): assert temperature(cold)
+
+def test_cold():
+    assert temperature("cold") == "16"
