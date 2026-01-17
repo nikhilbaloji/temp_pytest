@@ -10,5 +10,5 @@ def temperature(temp):
 
 
 if __name__ == "__main__":
-    temp = float(sys.argv[1])
+    temp = float(input())
     print(temperature(temp))
