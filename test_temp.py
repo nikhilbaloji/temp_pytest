@@ -1,2 +1,2 @@
-from t_temp import temperature
+from E_temp import temperature
 def test_cold(): assert temperature(10)=="Cold"
