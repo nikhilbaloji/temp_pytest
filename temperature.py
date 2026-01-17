@@ -1,14 +1,8 @@
-import sys
-
-def temperature(temp):
-    if temp < 20:
-        return "cold"
-    elif temp <= 30:
-        return "normal"
-    else:
-        return "hot"
-
+def classify(temp):
+    if temp < 20: return "Cold"
+    if temp <= 30: return "Normal"
+    return "Hot"
 
 if __name__ == "__main__":
-    temp = float(input())
-    print(temperature(temp))
+    t=float(input())
+    print(classify(t))
