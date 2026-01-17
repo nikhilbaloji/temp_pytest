@@ -1,4 +1,4 @@
-from test_temp import temperature
+from temp import temperature
 
 def test_cold():
     assert temperature("cold") == "16"
