@@ -1,3 +1,3 @@
-from q1_temp import classify
+from q1_temp import temperature
 
-def test_cold(): assert classify(10)=="Cold"
+def test_cold(): assert temperature(10)=="Cold"
